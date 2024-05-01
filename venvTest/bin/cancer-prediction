@@ -1,0 +1,6 @@
+#!/workspaces/cancer-prediction-mm2705/venvTest/bin/python
+import sys
+from cancer_prediction.cli import app
+
+if __name__ == '__main__':
+    sys.exit(app())
